@@ -1,0 +1,40 @@
+{
+  "JRCHESSKID": {
+    "userId": 14593,
+    "balance": 320000000,
+    "requests": [
+      {
+        "id": 1,
+        "type": "Deposit",
+        "amount": 20000000,
+        "toUser": null,
+        "status": "Approved"
+      }
+    ],
+    "logs": [
+      "[9/10/2025, 8:37:05 AM] 📥 Received 300000000 gems from ShinyCelestial",
+      "[9/10/2025, 8:33:12 AM] Request 1 Approved",
+      "[9/10/2025, 8:32:58 AM] Requested Deposit 20000000 gems "
+    ],
+    "nextRequestId": 2
+  },
+  "ShinyCelestial": {
+    "userId": 53823,
+    "balance": 100000000,
+    "requests": [
+      {
+        "id": 1,
+        "type": "Deposit",
+        "amount": 400000000,
+        "toUser": null,
+        "status": "Approved"
+      }
+    ],
+    "logs": [
+      "[9/10/2025, 8:37:05 AM] 📤 Sent 300000000 gems to JRCHESSKID",
+      "[9/10/2025, 8:36:47 AM] Request 1 Approved",
+      "[9/10/2025, 8:36:32 AM] Requested Deposit 400000000 gems "
+    ],
+    "nextRequestId": 2
+  }
+}
